@@ -1,0 +1,43 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Pyatnica7333331/Async-Await.git#readme",
+  "bugs": {
+    "url": "https://github.com/Pyatnica7333331/Async-Await.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyatnica7333331/Async-Await.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.18.3",
+    "css-loader": "^5.2.7",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.3.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {}
+}
